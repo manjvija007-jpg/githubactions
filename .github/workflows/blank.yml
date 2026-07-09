@@ -1,0 +1,10 @@
+name: First Workflow
+on: branch_protection_rule
+jobs:
+  first-job:
+    runs-on: 
+    steps:
+      - name: Print greeting
+        run: echo "Hello orld"
+      - name: Print Bye
+        run: echo "Done"
