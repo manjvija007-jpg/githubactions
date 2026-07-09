@@ -1,8 +1,8 @@
 name: First Workflow
 on: branch_protection_rule
 jobs:
-  first-job:
-    runs-on: 
+  first-job: 
+    runs-on: ubuntu-22.04
     steps:
       - name: Print greeting
         run: echo "Hello orld"
